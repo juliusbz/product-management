@@ -1,10 +1,7 @@
 import { Component } from '@angular/core';
 
-import { ProductService } from './products/product.service';
-
 @Component({
     selector: 'pm-app',
-    providers: [ ProductService ],
     template: `
     <div>
         <nav class='navbar navbar-default'>
